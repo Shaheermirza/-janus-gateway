@@ -298,7 +298,7 @@ nat: {
 	# network as the one the Janus instance is running from. Notice that
 	# this will cause ICE to fail if mDNS is the only way to connect!
 	ignore_mdns = true
-
+	mdns-enabled : false
 	# In case you're deploying Janus on a server which is configured with
 	# a 1:1 NAT (e.g., Amazon EC2), you might want to also specify the public
 	# address of the machine using the setting below. This will result in
