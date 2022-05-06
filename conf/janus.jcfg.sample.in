@@ -446,5 +446,5 @@ events: {
 	broadcast = true
 	#combine_media_stats = true
 	#disable = "libjanus_sampleevh.so"
-	#stats_period = 5
+	#stats_period = 53
 }
