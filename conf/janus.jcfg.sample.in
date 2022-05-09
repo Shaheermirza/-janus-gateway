@@ -287,7 +287,7 @@ nat: {
 	#full_trickle = true
 	#ice_nomination = "regular"
 	#ice_keepalive_conncheck = true
-	#ice_lite = false
+	ice_lite = false
 	#ice_tcp = true
 
 	# By default Janus tries to resolve mDNS (.local) candidates: even
