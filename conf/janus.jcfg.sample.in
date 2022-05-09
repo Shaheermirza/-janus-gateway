@@ -282,7 +282,7 @@ media: {
 # internal libnice debugging, if needed.
 nat: {
 	stun_server = "stun:stun.l.google.com"
-	#stun_port = 19302
+	stun_port = 19302
 	nice_debug = false
 	#full_trickle = true
 	#ice_nomination = "regular"
