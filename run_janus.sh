@@ -1,5 +1,5 @@
  #!/bin/bash
 sed -i 's/52.66.27.99/'$( curl ifconfig.me)'/g' /opt/janus/etc/janus/janus.jcfg
-/opt/janus/bin/janus &
-cd /root/janus-gateway/html
-ws
+echo "/opt/janus/bin/janus &"
+echo "cd /root/janus-gateway/html"
+echo "ws"
