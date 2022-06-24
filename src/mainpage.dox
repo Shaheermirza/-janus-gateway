@@ -2622,7 +2622,7 @@ var server = "http://www.example.com:8088/janus";
  * that itself, e.g.:
  *
  \verbatim
-var server = "https://" + window.location.hostname + ":8089/janus";
+var server = "https://" + window.location.hostname + ":8088/janus";
  \endverbatim
  *
  * assuming \c 8089 is the port you configured Janus to use for HTTPS.
@@ -2634,7 +2634,7 @@ var server = null;
 if(window.location.protocol === 'http:')
 	server = "http://" + window.location.hostname + ":8088/janus";
 else
-	server = "https://" + window.location.hostname + ":8089/janus";
+	server = "https://" + window.location.hostname + ":8088/janus";
  \endverbatim
  *
  * that is evaulate the right address to use at runtime.
