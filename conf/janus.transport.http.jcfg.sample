@@ -60,7 +60,7 @@ admin: {
 # return a '403 Forbidden' for all requests that don't comply.
 cors: {
 	allow_origin = "*"
-	#enforce_cors = true
+	enforce_cors = false
 }
 
 # Certificate and key to use for HTTPS, if enabled (and passphrase if needed).
